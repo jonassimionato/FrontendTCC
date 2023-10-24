@@ -75,11 +75,20 @@
             align-items: center;
         }
         
-        .header-title{
+        #username{
             padding: 0 0 0 30px;
-        
-            color: white;
+
+            color: black;
+            font-weight: bold;
             font-size: 25px;
+        
+            z-index: 9999;
+        }
+        
+        .logout{
+            padding: 0 30px 0 0;
+
+            cursor: pointer;
         
             z-index: 9999;
         }
@@ -87,8 +96,8 @@
 </head>
 <body>
     <div class="container-header">
-        <span id="username" class="header-title"></span>
-        <span class="header-title logout"></span>
+        <span id="username"></span>
+        <img class="logout" width="30" height="30" src="https://img.icons8.com/ios/50/exit--v1.png" alt="exit--v1"/>
     </div>
 
     <div><h1>Aula 01</h1></div>
