@@ -87,11 +87,18 @@ section:nth-of-type(4){
     align-items: center;
 }
 
-.header-title{
+#username{
     padding: 0 0 0 30px;
 
     color: white;
     font-size: 25px;
+
+    z-index: 9999;
+}
+
+.logout{
+    padding: 0 30px 0 0;
+    cursor: pointer;
 
     z-index: 9999;
 }
