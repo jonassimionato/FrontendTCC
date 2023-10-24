@@ -88,7 +88,7 @@ section:nth-of-type(4){
 }
 
 #username{
-    padding: 0 0 0 30px;
+    padding-left: 30px;
 
     color: white;
     font-size: 25px;
@@ -97,7 +97,7 @@ section:nth-of-type(4){
 }
 
 .logout{
-    padding: 0 30px 0 0;
+    padding-right: 30px;
     cursor: pointer;
 
     z-index: 9999;
