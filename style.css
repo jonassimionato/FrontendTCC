@@ -76,7 +76,7 @@ section:nth-of-type(4){
     height: 6vh;
 
     position: fixed;
-    top: 10px;
+    top: 0;
     left: 0;
 
     z-index: 9999;
